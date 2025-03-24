@@ -1,0 +1,14 @@
+1  wget -O splunkforwarder-9.4.1-e3bdab203ac8-linux-amd64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.4.1/linux/splunkforwarder-9.4.1-e3bdab203ac8-linux-amd64.tgz"
+    2  ll
+    3  clear
+    4  ll
+    6  tar xvzf splunkforwarder-9.4.1-e3bdab203ac8-linux-amd64.tgz
+    7  ll
+    8  cd splunkforwarder/
+    9  ll
+   10  cd bin/
+   11  ll
+   12  ./splunk start
+   13  ./splunk status
+   14  clear
+   16  history
