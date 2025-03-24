@@ -31,3 +31,16 @@ Splunk Enterprise Installation ----
     8  history
 
 
+Splunk UF Forwarding ----
+
+
+    2  clear
+    3  cd splunkforwarder/bin/
+    4  ./splunk add forward-server IndexerIP:9997
+    5  ./splunk list forward-server
+
+
+Validate in indexer UI ---
+
+index=_internal
+
