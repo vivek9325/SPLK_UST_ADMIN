@@ -1,3 +1,6 @@
+UF Installation ----
+
+
 1  wget -O splunkforwarder-9.4.1-e3bdab203ac8-linux-amd64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.4.1/linux/splunkforwarder-9.4.1-e3bdab203ac8-linux-amd64.tgz"
     2  ll
     3  clear
@@ -12,3 +15,19 @@
    13  ./splunk status
    14  clear
    16  history
+
+
+Splunk Enterprise Installation ----
+
+
+
+    1  wget -O splunk-9.4.1-e3bdab203ac8-linux-amd64.tgz "https://download.splunk.com/products/splunk/releases/9.4.1/linux/splunk-9.4.1-e3bdab203ac8-linux-amd64.tgz"
+    2  ll
+    3  tar xvzf splunk-9.4.1-e3bdab203ac8-linux-amd64.tgz
+    4  ll
+    5  cd splunk/bin/
+    6  ./splunk start
+    7  ./splunk status
+    8  history
+
+
