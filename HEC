@@ -1,0 +1,1 @@
+curl -k https://18.234.87.167:8088/services/collector -H "Authorization:Splunk a85b78da-bc39-4744-aeab-f2d1c1e28957" -d "{\"sourcetype\":\"trail\", \"event\":\"Hello World\"}"
