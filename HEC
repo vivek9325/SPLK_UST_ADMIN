@@ -8,3 +8,11 @@ curl -k https://18.234.87.167:8088/services/collector?channel=a3dba1f3-6c59-4a7b
 curl -k https://18.234.87.167:8088/services/collector?channel=a3dba1f3-6c59-4a7b-9872-f2af692955ed -H "Authorization:Splunk 915a65dc-c9ef-47d8-b443-ae814a63f763" -d "{\"sourcetype\":\"ack_src\",\"event\":\"test ack event1\"}"
 
 curl -k https://18.234.87.167:8088/services/collector?channel=a3dba1f3-6c59-4a7b-9872-f2af692955ed -H "Authorization:Splunk 915a65dc-c9ef-47d8-b443-ae814a63f763" -d "{\"sourcetype\":\"ack_src\",\"event\":\"test ack event123\"}"
+
+
+Validate ACK ID - 
+
+curl -k https://18.234.87.167:8088/services/collector/ack?channel=a3dba1f3-6c59-4a7b-9872-f2af692955ed -H "Authorization:Splunk 915a65dc-c9ef-47d8-b443-ae814a63f763" -d "{\"acks\":[0]}"
+
+
+curl -k https://18.234.87.167:8088/services/collector/ack?channel=a3dba1f3-6c59-4a7b-9872-f2af692955ed -H "Authorization:Splunk 915a65dc-c9ef-47d8-b443-ae814a63f763" -d "{\"acks\":[1]}"
