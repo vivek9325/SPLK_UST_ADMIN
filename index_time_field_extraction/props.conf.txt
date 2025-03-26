@@ -1,0 +1,8 @@
+[vk_xml]
+SHOULD_LINEMERGE=false
+category = Custom
+pulldown_type = true
+LINE_BREAKER=([\r\n]*)<messages>
+NO_BINARY_CHECK=true
+MUST_BREAK_AFTER=</messages>
+BREAK_ONLY_BEFORE=<messages>
