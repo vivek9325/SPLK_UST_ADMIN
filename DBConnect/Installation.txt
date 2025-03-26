@@ -12,3 +12,18 @@ XAMPP Installation Steps ====
 2. chmod 777 xampp-linux-x64-8.1.25-0-installer.run
 3. sudo ./xampp-linux-x64-8.1.25-0-installer.run
 
+
+   97  sudo dnf install libxcrypt-compat
+   98  sudo dnf install libnslyum install glibc*
+  105  sudo yum install libstd*
+  107  sudo dnf install libnsl
+
+ cd /opt/lampp
+
+sudo ./xampp start
+
+http://ip
+
+
+
+
