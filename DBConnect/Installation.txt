@@ -4,3 +4,11 @@ java -version
 JRE Path - /usr/lib/jvm/jre-17
 
 Upload Driver .jar file in below path - /home/ec2-user/splunk/etc/apps/splunk_app_db_connect/drivers/
+
+
+XAMPP Installation Steps ====
+
+1.  wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.1.25/xampp-linux-x64-8.1.25-0-installer.run
+2. chmod 777 xampp-linux-x64-8.1.25-0-installer.run
+3. sudo ./xampp-linux-x64-8.1.25-0-installer.run
+
