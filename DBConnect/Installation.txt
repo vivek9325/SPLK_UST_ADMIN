@@ -2,3 +2,5 @@ sudo yum install java-17-amazon-corretto -y
 java -version
 
 JRE Path - /usr/lib/jvm/jre-17
+
+Upload Driver .jar file in below path - /home/ec2-user/splunk/etc/apps/splunk_app_db_connect/drivers/
