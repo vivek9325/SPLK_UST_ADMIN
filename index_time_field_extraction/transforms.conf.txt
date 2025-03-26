@@ -1,4 +1,4 @@
 [vk_transforms]
-REGEX = <level>(?P<level>.*)<\/level><thread>(?P<thread>.*)<\/thread><location>(?P<location>.*)<\/location><msgKeyClass>(?P<msgKeyClass>.*)<\>
+REGEX = <level>(?P<level>.*)<\/level><thread>(?P<thread>.*)<\/thread><location>(?P<location>.*)<\/location><msgKeyClass>(?P<msgKeyClass>.*)
 FORMAT = level::$1 thread::$2 location::$3 msgKeyClass::$4
 WRITE_META = true
