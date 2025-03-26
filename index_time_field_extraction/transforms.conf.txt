@@ -1,0 +1,3 @@
+[vk_transaforms]
+REGEX = <level>(?P<level>.*)<\/level><thread>(?P<thread>.*)<\/thread><location>(?P<location>.*)<\/location><msgKeyClass>(?P<msgKeyClass>.*)<\>
+
