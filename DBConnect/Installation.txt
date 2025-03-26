@@ -1,0 +1,4 @@
+sudo yum install java-17-amazon-corretto -y
+java -version
+
+JRE Path - /usr/lib/jvm/jre-17
