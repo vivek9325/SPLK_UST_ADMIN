@@ -24,6 +24,16 @@ sudo ./xampp start
 
 http://ip
 
+cd /opt/lampp/etc/extra
+
+sudo su 
+
+vi httpd-xampp.conf
 
 
+After changes made, need to restart the xampp.
+cd /opt/lamp
+
+sudo ./xampp stop
+sudo ./xampp start
 
