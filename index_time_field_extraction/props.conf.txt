@@ -6,3 +6,4 @@ LINE_BREAKER=([\r\n]*)<messages>
 NO_BINARY_CHECK=true
 MUST_BREAK_AFTER=</messages>
 BREAK_ONLY_BEFORE=<messages>
+TRANSFORMS-demo=vk_transforms
