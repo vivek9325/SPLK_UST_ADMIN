@@ -1,0 +1,7 @@
+Need to run the below command in UF 
+
+
+[ec2-user@ip-172-31-4-249 ~]$ cd splunkforwarder/bin/
+
+
+[ec2-user@ip-172-31-4-249 bin]$ ./splunk set deploy-poll https://18.234.87.167:8089
