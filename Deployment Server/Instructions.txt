@@ -13,3 +13,13 @@ Path to create dummy app on Deployment server (DS)
 
 
 You need to create dummy app in this path
+
+
+Reload the serverclass --- 
+
+
+[ec2-user@ip-172-31-31-18 bin]$ ./splunk reload deploy-server
+
+[ec2-user@ip-172-31-31-18 bin]$ ./splunk reload deploy-server -class vk_serverclass
+
+
