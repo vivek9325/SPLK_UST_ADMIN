@@ -5,3 +5,11 @@ Need to run the below command in UF
 
 
 [ec2-user@ip-172-31-4-249 bin]$ ./splunk set deploy-poll https://18.234.87.167:8089
+
+
+Path to create dummy app on Deployment server (DS)
+
+/home/ec2-user/splunk/etc/deployment-apps
+
+
+You need to create dummy app in this path
