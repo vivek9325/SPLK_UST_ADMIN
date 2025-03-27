@@ -3,3 +3,10 @@ Below is the location where you need to push the application on the cluster mast
 
 [ec2-user@ip-172-31-31-18 master-apps]$ pwd
 /home/ec2-user/splunk/etc/master-apps
+
+
+CLI COmmands - 
+
+193  ./splunk show cluster-status
+  194  ./splunk list cluster-peers
+
