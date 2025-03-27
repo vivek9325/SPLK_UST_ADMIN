@@ -5,7 +5,7 @@ Below is the location where you need to push the application on the cluster mast
 /home/ec2-user/splunk/etc/master-apps
 
 
-CLI COmmands - 
+CLI COmmands - CM End
 
 193  ./splunk show cluster-status
   194  ./splunk list cluster-peers
