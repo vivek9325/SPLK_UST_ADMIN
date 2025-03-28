@@ -1,0 +1,11 @@
+[ec2-user@ip-172-31-23-45 local]$ pwd
+/home/ec2-user/splunk/etc/apps/search/local
+
+[ec2-user@ip-172-31-23-45 local]$ cat collections.conf
+
+[vk_kvstore]
+field.name = string
+field.place = string
+enforceTypes = false
+accelerated_fields.my_accl = {"name":1}
+[ec2-user@ip-172-31-23-45 local]$
