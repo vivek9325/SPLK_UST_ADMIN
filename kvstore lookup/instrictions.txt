@@ -9,3 +9,11 @@ field.place = string
 enforceTypes = false
 accelerated_fields.my_accl = {"name":1}
 [ec2-user@ip-172-31-23-45 local]$
+
+
+SPL - 
+
+|makeresults|eval name = "John", place="Kerala"| fields - _time | outputlookup vk_kvstore
+
+
+| inputlookup vk_kvstore | eval key = _key
