@@ -1,0 +1,10 @@
+Need to add the stanza in deployer
+
+/home/ec2-user/splunk/etc/system/local
+
+
+server.conf
+
+[shclustering]
+pass4SymmKey = admin@123
+shcluster_label = shcluster1
