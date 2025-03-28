@@ -29,5 +29,12 @@ SH3
 
 ./splunk init shcluster-config -auth admin:admin@123 -mgmt_uri https://107.22.39.191:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url https://3.95.211.153:8089 -secret admin@123 -shcluster_label shcluster1
 
+Run on anyone of the Search head ---
 
+ cd splunk/bin/
+
+
+./splunk bootstrap shcluster-captain  -servers_list "SH1,SH2,SH3" -auth <username>:<password>
+
+./splunk bootstrap shcluster-captain  -servers_list "https://3.87.124.236:8089,https://3.80.93.227:8089,https://107.22.39.191:8089" -auth admin:admin@123
 
