@@ -1,0 +1,6 @@
+./splunk btool props list --app=search --debug
+
+./splunk btool input list
+
+
+./splunk btool check
