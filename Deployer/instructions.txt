@@ -8,3 +8,10 @@ server.conf
 [shclustering]
 pass4SymmKey = admin@123
 shcluster_label = shcluster1
+
+
+Run on the each search head ----
+
+./splunk init shcluster-config -auth <username>:<password> -mgmt_uri <URI>:<management_port> -replication_port <replication_port> -replication_factor <n> -conf_deploy_fetch_url <URL>:<management_port> -secret <security_key> -shcluster_label <label>
+
+
