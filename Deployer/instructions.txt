@@ -15,3 +15,19 @@ Run on the each search head ----
 ./splunk init shcluster-config -auth <username>:<password> -mgmt_uri <URI>:<management_port> -replication_port <replication_port> -replication_factor <n> -conf_deploy_fetch_url <URL>:<management_port> -secret <security_key> -shcluster_label <label>
 
 
+
+SH1
+
+
+./splunk init shcluster-config -auth admin:admin@123 -mgmt_uri https://3.87.124.236:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url https://3.95.211.153:8089 -secret admin@123 -shcluster_label shcluster1
+
+SH2 
+
+./splunk init shcluster-config -auth admin:admin@123 -mgmt_uri https://3.80.93.227:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url https://3.95.211.153:8089 -secret admin@123 -shcluster_label shcluster1
+
+SH3 
+
+./splunk init shcluster-config -auth admin:admin@123 -mgmt_uri https://107.22.39.191:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url https://3.95.211.153:8089 -secret admin@123 -shcluster_label shcluster1
+
+
+
